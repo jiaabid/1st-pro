@@ -1,0 +1,164 @@
+body
+{
+    width: 100%;
+}
+div.wrapper
+{
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+}
+div.bar
+{
+    background-color: black;
+    flex: 1;
+}
+.bar h1
+{
+    color: white;
+    font-size: 30px;
+}
+div.div1
+{
+    flex: 1;
+    display: flex;
+    padding: 3%;
+    justify-content: space-between;
+}
+div.intro
+{
+    width: 76%;
+    text-align: justify;
+    display: flex;
+    justify-content: space-between;
+}
+div.para
+{
+    width: 84%;
+}
+div.img
+{
+    width: 27%;
+}
+.img img
+{
+    width: 60%;
+    margin-left: 15%;
+}
+div.side1
+{
+    border-style: solid;
+    border-width: thin;
+    background-color: silver;
+
+    width: 20%;
+    padding: 1%;
+    margin-right: 1%;
+    
+}
+div.div2
+{
+    margin-top: -8%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+}
+div.poetry
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.p1
+{
+    width: 30%;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+.p2
+{
+    width: 30%;
+    font-size: 20px;
+     background-color: black;
+    color: white;
+}
+.p3
+{
+    width: 30%;
+    font-size: 20px;
+     background-color: black;
+    color: white;
+    margin-right: 1%;
+}
+div.div3
+{
+    flex: 1;
+    display: flex;
+    padding: 1%;
+    justify-content: space-between;
+}
+div.centre
+{
+    width: 55%;
+    order: 2;
+}
+div.left
+{
+    width: 20%;
+    padding: 1%;
+    order: 1;
+    
+}
+div.side2
+{
+    padding: 1%;
+    margin-bottom: 4%;
+    margin-top: -2%;;
+    border-style: solid;
+    border-width: thin;
+    background-color: silver;
+
+}
+div.side3
+{
+    padding: 1%;
+    margin-bottom: 4%;
+    border-style: solid;
+    border-width: thin;
+    background-color: silver;
+
+}
+div.side5
+{
+    padding: 1%;
+    margin-bottom: 4%;
+    border-style: solid;
+    border-width: thin;
+    background-color: silver;
+
+}
+
+div.side4
+{
+    border-style: solid;
+    border-width: thin;
+    background-color: silver;
+    width: 18%;
+    order: 3;
+    margin-right: 1%;
+    padding: 1%;
+}
+.foot
+{
+    padding-left: 1%;
+    background-color: yellow;
+    letter-spacing: 0.5em;
+    font-weight: bold;
+    opacity: 60%;
+    width: 20%;
+}
